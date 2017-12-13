@@ -30,13 +30,13 @@ router.all('/webhook', function (req, res, next) {
         const kei = json_categories.filter(category => category.id_category == 361);
         const kei_products = kei[0].products.map(key => json_products.filter(product => product.id_product == key)[0]);
 
-        let element;
+        /* let element;
         for (let index = 0; index < kei_products.length; index++) {
           element += kei_products[index].name+' ';
-        }
-        console.log(element);
+        } */
+
         res.json({
-          speech: 'L offre spéciale du moment est ...' + kei_products.map(product => product.name).join(' et '),
+          speech: 'L offre spéciale du moment est ' + kei.name + 'et elle se compose de ' + kei_products.map(product => product.name).join(' et '),
           source: 'webhook'
         });
         break;
