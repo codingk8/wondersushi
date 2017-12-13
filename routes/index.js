@@ -10,11 +10,13 @@ const json_products = require('../db/product.json');
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  const kei = json_categories.filter(category => category.id_category == 361);
+  /* const kei = json_categories.filter(category => category.id_category == 361);
   console.log(kei);
   const kei_products = kei[0].products.map(key => json_products.filter(product => product.id_product == key)[0]);
 
-  res.json(kei_products);
+  res.json(kei_products);*/
+
+
 });
 
 
