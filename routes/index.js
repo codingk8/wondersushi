@@ -36,7 +36,7 @@ router.all('/webhook', function (req, res, next) {
         } */
 
         res.json({
-          speech: 'L offre spéciale du moment est ' + kei.name + 'et elle se compose de ' + kei_products.map(product => product.name).join(' et '),
+          speech: 'L offre spéciale du moment est ' + kei[0].name + ' et elle se compose de ' + kei_products.map(product => product.name).join(' et '),
           source: 'webhook'
         });
         break;
