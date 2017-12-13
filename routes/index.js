@@ -32,11 +32,11 @@ router.all('/webhook', function (req, res, next) {
 
         let element;
         for (let index = 0; index < kei_products.length; index++) {
-          element += kei_products[index].name;
+          element += kei_products[index].name+' ';
         }
-
+        console.log(element);
         res.json({
-          speech: 'L offre spéciale du moment est ...' + element,
+          speech: 'L offre spéciale du moment est ...' + kei_products.map(product => product.name).join(' et '),
           source: 'webhook'
         });
         break;
