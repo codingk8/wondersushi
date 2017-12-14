@@ -1,5 +1,27 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  section.secvert
+    p.police 🍚 Bienvenue sur le site de démonstration de Wondersushi pour Google Home 🥢 
+  section.secsaumon
+    p 🤖
+    p Wondersushi est un chatbot conversationnel élaboré pour Google Home, l'enceinte à commande vocale de Google.
+    p Il a été développé sur la plateforme DialogueFlow, mise à la disposition des développeurs par Google.
+    p 🍱
+    p Dans sa version complète, il vous permet de dialoguer avec votre Google Home et de commander des sushis sur votre site préféré de cuisine japonaise.
+    p 🗣️
+    p Dans cette version de démonstration vous pouvez lui parler (pensez à cliquer sur le micro en bas à droite avant de commencer).
+    p Lui, en revanche vous répondra par écrit.
+    p ️👂
+    p Pour l'entendre parler, il faut disposer du simulateur de test de DialogueFlow qui n'est pas encore déployable sur un site Internet.
+    p 👀
+    p Cette version vous donne néanmoins un bon aperçu de notre solution et des différents parcours "utilisateur" qu'elle propose.
+    p 🎙️
+    p Vous pouvez commencer la conversation en disant "Bonjour", puis laissez-vous guider !
+    br
+    iframe(width='450', height='530', src='https://console.dialogflow.com/api-client/demo/embedded/1f57a790-1189-4159-9e63-126b5375b1bc')
+    br
+    a(href="/projet" class="btn vert") Tout savoir sur ce projet
+  // h1= title
+  // p Welcome to #{title}
+
