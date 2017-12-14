@@ -1,6 +1,13 @@
 extends layout
 
 block content
-  h1= message
-  h2= error.status
-  pre #{error.stack}
+  section.secgris
+    p.police Oups ! Vous êtes à un mauvais endroit. Il n'y a rien à cette adresse 🤔
+    a(href="/" class="btn vert") Retour à l'accueil
+    br
+    img.gif(src='https://media.giphy.com/media/QEwbIdEpSvoVa/giphy.gif', alt='Gif animé avec des suhis qui dansent')
+
+  // block content
+    h1= message
+    h2= error.status
+    pre #{error.stack}

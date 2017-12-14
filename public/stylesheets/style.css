@@ -1,8 +1,156 @@
+/* Ce fichier est le fichier css du projet Wondersushi du Hackathon 3
+organisé par la Wild Code School & l'EFAP en partenariat avec l'agence Braaxe 
+pour le compte du client Sushi shop
+*/
+
+/* Les couleurs de la chartes sont les suivantes.
+La couleur principale est un orange saumoné : #FF6B5C
+Sa couleur complémentaire principale est un vert : #1DB262
+Puis il y a un rouge brique : #B23B2F
+Il y a deux couleurs secondaires.
+Un orange saumoné plus clair : #FF8275
+Un vert plus clair : #54E597
+Voir ici : https://color.adobe.com/fr/create/color-wheel/?base=0&rule=Complementary&selected=0&name=Mon%20th%C3%A8me%20Color&mode=rgb&rgbvalues=1,0.4196078431372549,0.3607843137254902,0.7,0.23016720798745272,0.18254901960784317,1,0.5104053891494865,0.4607843137254902,0.11254901960784319,0.7,0.3837228346599445,0.36078431372549025,1,0.6558532847100864&swatchOrder=0,1,2,3,4
+*/
+
+/* Les polices de la charte sont les suivantes homemade apple & assistant (regular et 600)
+<link href="https://fonts.googleapis.com/css?family=Assistant:300,400,600,700|Kaushan+Script" rel="stylesheet">
+font-family: 'Kaushan Script', cursive;
+font-family: 'Assistant', sans-serif;
+*/
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-family: 'Assistant', Helvetica, Arial, sans-serif;
+  background-color: #fffaf0;
 }
 
-a {
-  color: #00B7FF;
+header {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
 }
+
+.titre {
+  font-size: 2.5em;
+  color: #ff6b5c;
+}
+
+.slogan {
+  font-family: 'Kaushan Script';
+  color: #b23b2f;
+}
+
+.logo {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.secsaumon {
+  text-align: center;
+  color: #fffaf0;
+  font-size: 1.5em;
+  background-color: #ff8275;
+  padding: 50px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.secvert {
+  text-align: center;
+  color: #fffaf0;
+  font-size: 1.5em;
+  background-color: #1db262;
+  padding: 50px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.secgris {
+  text-align: center;
+  color: #fffaf0;
+  font-size: 1.5em;
+  background-color: #bbbaba;
+  padding: 50px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+#s3 {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 50px;
+}
+
+.brique {
+  font-size: 1em;
+  font-family: 'Kaushan Script';
+  color: #f1f1f1;
+  background-color: #b23b2f;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.vert {
+  font-size: 1em;
+  font-family: 'Kaushan Script';
+  color: #f1f1f1;
+  background-color: #1db262;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.saumon {
+  font-size: 1em;
+  font-family: 'Kaushan Script';
+  color: #f1f1f1;
+  background-color: #ff6b5c;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.gris {
+  font-size: 1em;
+  background-color: #bbbaba;
+  padding: 15px;
+  border-radius: 15px;
+  color: #fffaf0;
+}
+
+.bologo {
+  width: 80px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b23b2f;
+  font-family: 'Kaushan Script';
+  height: 150px;
+  color: #FFFAF0;
+  font-size: 1.5em;
+  border-radius: 15px;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.police {
+  font-family: 'Kaushan Script';
+}
+
+.gif {
+  margin-top: 40px;
+  border-radius: 15px;
+}
+
+/* Ici j'ai supprimé un truc .footer avec une margin right de 30px */
+
+/* Mettre des media queries pour l'affichage sur devices avec 2 formats différents, pour remettre le formulaire en largeur 100% */

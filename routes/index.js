@@ -3,21 +3,32 @@ var router = express.Router();
 
 /* Ci-dessous, récupéré de l'exemple server.js */
 var fs = require('fs');
-var request = require('request');
+/* var request = require('request'); */
 var cheerio = require('cheerio');
 const json_categories = require('../db/category.json');
 const json_products = require('../db/product.json');
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
+  res.render('index');
+
   /* const kei = json_categories.filter(category => category.id_category == 361);
   console.log(kei);
   const kei_products = kei[0].products.map(key => json_products.filter(product => product.id_product == key)[0]);
 
   res.json(kei_products);*/
-
-
 });
+
+/* GET page Tout savoir sur le projet */
+router.get('/projet', function (req, res, next) {
+  res.render('projet')
+});
+
+/* GET error. */
+router.get('/erreur404', function (req, res, next) {
+  res.render('error');
+});
+
 
 
 router.all('/webhook', function (req, res, next) {
@@ -50,6 +61,5 @@ router.all('/webhook', function (req, res, next) {
         });
     }
 });
-
 
 module.exports = router;
