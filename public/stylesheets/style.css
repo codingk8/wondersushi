@@ -29,10 +29,16 @@ body {
   background-color: white;
 }
 
+/* Début de la mise en forme du header */
 header {
   text-align: center;
   font-size: 2em;
   margin-bottom: 20px;
+}
+
+.logo {
+  width: 200px;
+  border-radius: 5px;
 }
 
 .titre {
@@ -44,12 +50,21 @@ header {
   font-family: 'Kaushan Script';
   color: #b23b2f;
 }
+/* Fin mise en forme du header */
 
-.logo {
-  width: 200px;
-  border-radius: 5px;
+/* Début de la mise en forme des titres */
+h1 {
+  font-size: 1em;
+  font-family: 'Kaushan Script';
 }
 
+h2 {
+  font-size: 1em;
+  line-height: inherit;
+}
+/* Fin mise en forme des titres */
+
+/* Début de la mise en forme des encadrés pleins */
 .secsaumon {
   text-align: center;
   color: white;
@@ -85,7 +100,9 @@ header {
   border-radius: 15px;
   margin-bottom: 15px;
 }
+/* Fin de la mise en forme des encadrés pleins */
 
+/* Début de la mise en forme des encadrés vides */
 .secsaumonborder {
   text-align: center;
   color: #ff6b5c;
@@ -116,7 +133,9 @@ header {
   padding-bottom: 30px;
   margin-bottom: 20px;
 }
+/* Fin de la mise en forme des encadrés vides */
 
+/* Début de la mise en forme des boutons */
 .vert {
   font-size: 1em;
   font-family: 'Kaushan Script';
@@ -137,18 +156,40 @@ header {
   margin-top: 20px;
 }
 
-.gris {
+.brique {
   font-size: 1em;
-  background-color: #bbbaba;
+  font-family: 'Kaushan Script';
+  background-color: #b23b2f;
   padding: 15px;
   border-radius: 15px;
   color: white;
+  margin-top: 20px;
 }
 
+.btn {
+  color: white;
+  text-decoration: none;
+}
+
+.btn:visited {
+  color:white;
+}
+
+.btn:clicked {
+  color: white;
+}
+
+.btn:hover {
+  color: grey;
+}
+/* Fin de la mise en forme des boutons */
+
+/* Mise en forme du logo WCS du footer */
 .bologo {
-  width: 80px;
+  width: 70px;
 }
 
+/* Mise en forme du footer */
 footer {
   display: flex;
   align-items: center;
@@ -156,25 +197,63 @@ footer {
   background-color: #b23b2f;
   font-family: 'Kaushan Script';
   height: 150px;
-  color: #FFFAF0;
-  font-size: 1.5em;
+  color:white;
+  font-size: 1.2em;
   border-radius: 15px;
   margin-left: 14px;
   margin-right: 14px;
 }
 
+/* Début de mises en forme diverses de paragraphes */
 .police {
   font-family: 'Kaushan Script';
 }
 
-.brique {
+.pbrique {
   color: #b23b2f;
+}
+
+.pvert {
+  color: #1db262;
 }
 
 .gagnant {
   font-weight: bold;
 }
 
+.souligne {
+  text-decoration-line: underline;
+}
+/* Fin de mises en forme diverses de paragraphes */
+
+/* Début de la mise en forme des liens */
+a {
+  color: grey;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: grey;
+  
+}
+
+a:visited {
+  color: grey;
+  text-decoration: none;
+}
+
+a:active {
+  color: grey;
+  text-decoration: none;
+}
+/* Fin de la mise en forme des liens */
+
+/* Mise en forme des photos du grid de l'équipe projet */
+.photo {
+  width: 120px;
+}
+
+/* Mise en forme du gif animé de la page 404 */
 .gif {
   margin-top: 40px;
   border-radius: 15px;

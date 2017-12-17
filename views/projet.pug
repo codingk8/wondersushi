@@ -2,43 +2,104 @@ extends layout
 
 block content
   section.secvertborder
-    p.police Le projet Wondersushi
+    h1 Le projet Wondersushi
   section.secsaumonborder
     p 👩‍🎓👨‍🎓
-    p Les 12 et 13 décembre 2017, le MBA "Marketing digital" de l'EFAP et la Wild Code School ont organisé un hackathon permettant à leurs élèves de travailler ensemble.
+    h2 
+      | Les 12 et 13 décembre 2017, le MBA "Marketing digital" de l'
+      a(href='www.efap.com', target='_blank') EFAP
+      |  et la 
+      a(href='https://wildcodeschool.fr/', target='_blank') Wild Code School
+      |  ont organisé un hackathon permettant à leurs élèves de travailler ensemble.
     p 🇫🇷
-    p Les campus de Bordeaux, Lille, Lyon et Paris des deux écoles, soit xx personnes réparties en 19 équipes, ont participé à cette compétition nationale.
+    p Les campus de Bordeaux, Lille, Lyon et Paris des deux écoles ont participé à cette compétition nationale, soit plus de cent étudiants répartis en 21 équipes.
     p 📣
-    p Le sujet était proposé par l'agence Braaxe pour leur client Sushi Shop : créer une application Google Home innovante permettant à Sushi shop de renforcer sa présence de marque digitale vers sa cible d'"early adopters".
+    h2
+      | Le sujet était proposé par 
+      a(href='https://braaxe.com/', target='_blank') l'agence Braaxe
+      |  pour leur client 
+      a(href='https://www.sushishop.fr/fr/', target='_blank') Sushi Shop
+      |  : créer une application 
+      a(href='https://store.google.com/fr/product/google_home?hl=fr-FR', target='_blank') Google Home 
+      |  innovante permettant à Sushi shop de renforcer sa présence de marque digitale vers la cible des "early adopters".
     p 🏅 🏆 🥇
-    p.gagnant Le projet Wondersushi est arrivé en tête en proposant une solution novatrice, conviviale et efficace.
+    h2.gagnant.pbrique.souligne Le projet Wondersushi est arrivé en tête en proposant une solution novatrice, conviviale et efficace.
     // p 🍱
     // p La version déployée sur ce site ne fais pas référence à la marque Sushi Shop.
+    h2.police.pbrique L'équipe projet était composée de six personnes
+    section.equipe.pbrique
+      p.police Quatre personnes pour la partie marketing | 
+        a(href='http://www.efap.com/', target='_blank') EFAP
+      .container-fluid
+        .row.efapfilles
+          .col-md-4.col-md-offset-2
+            p
+              img.photo(src='/images/clairemata.png', alt='Photo de Claire Mata EFAP')
+            p Claire Mata
+              a(href='https://www.linkedin.com/in/claire-mata-08801010a/', target='_blank')
+                img(src='images/li.png', alt='Profil LinkedIn de Claire Mata')
+          .col-md-4
+            p
+              img.photo(src='../images/juliettemarchais.png', alt='Photo de Juliette Marchais EFAP')
+            p Juliette Marchais
+              a(href='https://www.linkedin.com/in/juliette-marchais-23ba009a/', target='_blank')
+                img(src='images/li.png', alt='Profil LinkedIn de Juliette Marchais')
+        .row.efapgarcons
+          .col-md-4.col-md-offset-2
+            p
+              img.photo(src='../images/maximetricoire.png', alt='Photo de Maxime Tricoire EFAP')
+            p Maxime Tricoire
+              a(href='https://www.linkedin.com/in/maxime-tricoire/', target='_blank')
+                img(src='images/li.png', alt='Profil LinkedIn de Maxime Tricoire')
+          .col-md-4
+            p
+              img.photo(src='../images/simonvernhes.png', alt='Photo de Simon Vernhes EFAP')
+            p Simon Vernhes
+              a(href='https://www.linkedin.com/in/simvernhes/', target='_blank')
+                img(src='images/li.png', alt='Profil LinkedIn de Simon Vernhes')
+      h2.police Deux personnes pour la partie technique | 
+        a(href='https://wildcodeschool.fr/', target='_blank') Wild Code School
+      .container-fluid
+        .row.wcs
+          .col-md-4.col-md-offset-2
+            p
+              img.photo(src='../images/catherinevassant.png', alt='Photo de Catherine Vassant Wild Code School')
+            p Catherine Vassant aka Codingk8
+              a(href='https://www.linkedin.com/in/catherine-vassant-7016a546/', target='_blank')
+                img(src='images/li.png', alt='Profil LinkedIn de Catherine Vassant')
+          .col-md-4
+            p
+              img.photo(src='../images/jeremydavid.png', alt='Photo de Jérémy David Wild Code School')
+            p Jérémy David aka Gregstone
+              a(href='https://www.linkedin.com/in/j%C3%A9r%C3%A9my-david-93796a14a/', target='_blank')
+                img(src='images/li.png', alt='Profil LinkedIn de Jérémy David')
+    div.brique
+      h2.police.souligne Remerciements
+      p.police Nous tenons à remercier vivement nos écoles, nos formateurs, nos camarades, l'agence Braaxe et l'entreprise Sushi shop pour cette belle opportunité et, surtout, pour nous avoir donné les moyens de la saisir et d'en faire un succès.
     br
-    p.police.brique L'équipe projet de l'application était composée de six personnes
-    p Quatre pour la partie marketing
-    p Deux pour la partie technique
-    p 
     br
-    p.police.brique Les parcours "utilisateur" ont été détaillés sur la page de démonstration.
+    p.pvert.gagnant.souligne Les caractéristiques de la solution Wondersushi
+    p.police.pvert Les parcours "utilisateur" de test ont été détaillés sur la page de démo.
+    h2.police.pvert La partie technique utilise :
+    p.pvert - DialogueFlow de Google pour le chatbot
+    p.pvert - NodeJS pour le back end
+    p.pvert - Boostrap pour la mise en page et le responsive
+    p.pvert - Pug, CSS, jQuery pour le front end
+    p.pvert - Canva pour le logo
+    p.pvert - Google fonts pour les polices Kaushan et Ubuntu Condensed
+    p.pvert - Heroku pour le webhook et l'hébergement
+    p.pvert - Git pour la gestion des versions
+    h2.police.pvert
+      | Le code est disponible sur   
+      a(href='https://github.com/codingk8/wondersushi', target='_blank')
+        img(src='images/github.png')
     br
-    p.police.brique La partie technique utilise :
-    p la plateforme DialogueFlow de Google
-    p NodeJS pour le back end
-    p Pug, CSS, jQuery pour le front end
-    p un logo Canva
-    p les polices Google Kaushan et Ubuntu Condensed
-    p Boostrap pour la mise en page et le responsive
-    p Heroku pour le webhook et l'hébergement
-    p Git pour la gestion des versions
-    p.police Le code est disponible sur GitHub ici.
-    a(href="https://github.com/codingk8/wondersushi")
+    h2.police.pvert.souligne Wondersushi à votre service
+    p.vert Le projet est associé à l'univers gastronomique des sushis mais pourrait servir à déployer sur Google home la présence de tout "food store" souhaitant proposer ce nouveau service à ses clients.
+    p.police.pvert L'équipe technique est à votre disposition pour plus d'information.
+    p.police.pvert Nous serons ravis de vous apporter notre expertise.
     br
-    p.police.brique Wondersushi à votre service
-    p Le projet est associé à l'univers gastronomique des sushis mais pourrait servir à déployer sur Google home la présence de tout "food store" souhaitant offrir ce nouveau service à ses clients.
-    p.police.brique L'équipe technique est à votre disposition pour plus d'information.
-    p.police.brique Nous serons ravis de vous apporter notre expertise.
-    a(href="/" class="btn vert") Retour à l'accueil
+    a(href="/" class="btn saumon") > Retour à la page de démo
   // h1= title
   // p Welcome to #{title}
 
