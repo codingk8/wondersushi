@@ -61,6 +61,7 @@ h1 {
 h2 {
   font-size: 1em;
   line-height: inherit;
+  margin-top: 0px;
 }
 /* Fin mise en forme des titres */
 
@@ -234,6 +235,7 @@ a {
 
 a:hover {
   color: grey;
+  text-decoration: none;
   
 }
 
