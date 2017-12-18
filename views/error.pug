@@ -2,11 +2,10 @@ extends layout
 
 block content
   section.secgris
-    p.police Oups ! Vous êtes à un mauvais endroit. Il n'y a rien à cette adresse 🤔
+    p.police.error Oups ! Vous êtes à un mauvais endroit. Il n'y a rien à cette adresse 🤔
     a(href="/" class="btn saumon") Retour à l'accueil
     br
-    p
-      img.gif(src='https://media.giphy.com/media/QEwbIdEpSvoVa/giphy.gif', alt='Gif animé avec des suhis qui dansent')
+    img.gif(src='https://media.giphy.com/media/QEwbIdEpSvoVa/giphy.gif', alt='Gif animé avec des suhis qui dansent')
 
   // block content
     h1= message

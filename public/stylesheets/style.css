@@ -146,7 +146,7 @@ h2 {
   background-color: #1db262;
   padding: 15px;
   border-radius: 15px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .saumon {
@@ -156,7 +156,7 @@ h2 {
   background-color: #ff6b5c;
   padding: 15px;
   border-radius: 15px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .brique {
@@ -166,7 +166,7 @@ h2 {
   padding: 15px;
   border-radius: 15px;
   color: white;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .btn {
@@ -277,12 +277,13 @@ a.lienfoot:active {
 
 /* Mise en forme des photos du grid de l'équipe projet */
 .photo {
-  width: 120px;
+  width: 200px;
 }
 
 /* Mise en forme du gif animé de la page 404 */
 .gif {
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-bottom: 15px;
   border-radius: 15px;
   text-align: center;
 }
@@ -292,9 +293,18 @@ a.lienfoot:active {
 /* */
 /* Small devices */
 @media (max-width: 767px) {
+  .photo {
+    width: 100px;
+  }
+  .error {
+    font-size: 2em;
+  }
+  .saumon {
+    margin-top: 10px;
+  }
   .iframe {
-    width: 250px;
-    height: 330px;
+    width: 300px;
+    height: 380px;
   }
   body {
     padding-right: 1px;
@@ -344,6 +354,8 @@ a.lienfoot:active {
   }
   .gif {
     width: 250px;
+    margin-top: 15px;
+    margin-bottom: 7px;
   }
   footer {
     font-size: 1em;
@@ -358,15 +370,21 @@ a.lienfoot:active {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 992px) {
+  .photo {
+    width: 175px;
+  }
+  .error {
+    font-size: 2em;
+  }
+  .saumon {
+    margin-top: 10px;
+  }
   .iframe {
     width: 350px;
     height: 430px;
   }
   body {
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding: 0px;
     font-size: 20px;
     text-align: center;
   }
@@ -405,6 +423,8 @@ a.lienfoot:active {
   }
   .gif {
     width: 550px;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
   footer {
     font-size: 1em;
