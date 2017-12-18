@@ -27,6 +27,7 @@ body {
   font-size: 20px;
   font-family: 'Ubuntu Condensed', Arial, Helvetica, sans-serif;
   background-color: white;
+  text-align: center;
 }
 
 /* Début de la mise en forme du header */
@@ -266,9 +267,13 @@ a.lienfoot:visited {
 a.lienfoot:active {
   color: white;
 }
-
-
 /* Fin de la mise en forme des liens */
+
+/* Mise en forme de l'iframe du chatbot */
+.iframe {
+  width: 550px;
+  height: 630px;
+}
 
 /* Mise en forme des photos du grid de l'équipe projet */
 .photo {
@@ -279,117 +284,136 @@ a.lienfoot:active {
 .gif {
   margin-top: 40px;
   border-radius: 15px;
+  text-align: center;
 }
 
-/* Ici j'ai supprimé un truc .footer avec une margin right de 30px */
+/* Mettre des media queries */
 
-/* Mettre des media queries pour l'affichage sur devices avec 2 formats différents, pour remettre le formulaire en largeur 100% */
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px max-width: 768px) {
+/* */
+/* Small devices */
+@media (max-width: 767px) {
   .iframe {
     width: 250px;
     height: 330px;
   }
   body {
-    padding-right: 5px;
-    padding-left: 5px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    font-size: 10px;
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 15px;
+    text-align: center;
+  }
+  header {
+    font-size: 1.5em;
+  }
+  .titre {
+    font-size: 1.7em;
   }
   .secsaumon {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    font-size: 1em;
+    padding: 10px;
     border-radius: 5px;
     margin-bottom: 5px;
   }
   
   .secvert {
-    padding: 15px;
+    font-size: 1em;
+    padding: 10px;
     border-radius: 5px;
     margin-bottom: 5px;
   }
   
   .secgris {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    font-size: 1em;
+    padding: 10px;
     border-radius: 5px;
     margin-bottom: 5px;
   }
   .secsaumonborder {
+    font-size: 1em;
     border-radius: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 10px;
     margin-bottom: 5px;
   }
   .secvertborder {
+    font-size: 1em;
     border-radius: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 10px;
     margin-bottom: 5px;
+  }
+  .gif {
+    width: 250px;
+  }
+  footer {
+    font-size: 1em;
+    border-radius: 5px;
+    padding: 10px;
+    height: 100px;
+  }
+  .bologo {
+    width: 50px;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .iframe {
     width: 350px;
     height: 430px;
   }
   body {
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    text-align: center;
   }
   .secsaumon {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 5px;
-    margin-bottom: 5px;
+    font-size: 1em;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
   }
   
   .secvert {
+    font-size: 1em;
     padding: 15px;
-    border-radius: 5px;
-    margin-bottom: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
   }
   
   .secgris {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 5px;
-    margin-bottom: 5px;
+    font-size: 1em;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
   }
+
   .secsaumonborder {
-    border-radius: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
+    font-size: 1em;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
   }
   .secvertborder {
-    border-radius: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
+    font-size: 1em;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .gif {
+    width: 550px;
+  }
+  footer {
+    font-size: 1em;
+    border-radius: 10px;
+    padding: 10px;
+    height: 100px;
+  }
+  .bologo {
+    width: 65px;
   }
 }
 
