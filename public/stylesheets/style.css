@@ -56,7 +56,6 @@ header {
 
 /* Début de la mise en forme des titres */
 h1 {
-  font-size: 1em;
   font-family: 'Kaushan Script';
 }
 
@@ -288,38 +287,52 @@ a.lienfoot:active {
   text-align: center;
 }
 
-/* Mettre des media queries */
+/***** Media queries *****/
 
-/* */
 /* Small devices */
 @media (max-width: 767px) {
   .photo {
     width: 100px;
   }
+
   .error {
     font-size: 2em;
   }
+
   .saumon {
     margin-top: 10px;
   }
+
   .iframe {
     width: 300px;
     height: 380px;
   }
+
   body {
     padding-right: 1px;
     padding-left: 1px;
     padding-top: 1px;
     padding-bottom: 1px;
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
   }
+
+  .projet {
+    font-size: 1.7em;
+  }
+
+  .pres {
+    font-size: 1.4em;
+  }
+
   header {
     font-size: 1.5em;
   }
+
   .titre {
     font-size: 1.7em;
   }
+
   .secsaumon {
     font-size: 1em;
     padding: 10px;
@@ -340,54 +353,80 @@ a.lienfoot:active {
     border-radius: 5px;
     margin-bottom: 5px;
   }
+
   .secsaumonborder {
     font-size: 1em;
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 5px;
   }
+
   .secvertborder {
     font-size: 1em;
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 5px;
   }
+
   .gif {
     width: 250px;
     margin-top: 15px;
     margin-bottom: 7px;
   }
+
   footer {
     font-size: 1em;
     border-radius: 5px;
     padding: 10px;
     height: 100px;
   }
+
   .bologo {
     width: 50px;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .photo {
     width: 175px;
   }
+
   .error {
     font-size: 2em;
   }
+
   .saumon {
     margin-top: 10px;
   }
+
   .iframe {
     width: 350px;
     height: 430px;
   }
+
   body {
     padding: 0px;
     font-size: 20px;
     text-align: center;
   }
+
+  .projet {
+    font-size: 2em;
+  }
+
+  .pres {
+    font-size: 1.5em;
+  }
+
+  header {
+    font-size: 1.5em;
+  }
+
+  .titre {
+    font-size: 1.7em;
+  }
+
   .secsaumon {
     font-size: 1em;
     padding: 15px;
@@ -415,23 +454,27 @@ a.lienfoot:active {
     border-radius: 10px;
     margin-bottom: 10px;
   }
+
   .secvertborder {
     font-size: 1em;
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 10px;
   }
+
   .gif {
     width: 550px;
     margin-top: 20px;
     margin-bottom: 10px;
   }
+
   footer {
     font-size: 1em;
     border-radius: 10px;
     padding: 10px;
     height: 100px;
   }
+
   .bologo {
     width: 65px;
   }
