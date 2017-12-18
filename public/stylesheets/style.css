@@ -241,13 +241,33 @@ a:hover {
 
 a:visited {
   color: grey;
-  text-decoration: none;
 }
 
 a:active {
   color: grey;
-  text-decoration: none;
 }
+
+/* Mise en forme spécifique pour les liens du footer */
+a.lienfoot {
+  color: white;
+  text-decoration: underline;
+}
+
+a.lienfoot:hover {
+  color: white;
+  text-decoration: none;
+  
+}
+
+a.lienfoot:visited {
+  color: white;
+}
+
+a.lienfoot:active {
+  color: white;
+}
+
+
 /* Fin de la mise en forme des liens */
 
 /* Mise en forme des photos du grid de l'équipe projet */
@@ -264,5 +284,42 @@ a:active {
 /* Ici j'ai supprimé un truc .footer avec une margin right de 30px */
 
 /* Mettre des media queries pour l'affichage sur devices avec 2 formats différents, pour remettre le formulaire en largeur 100% */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px max-width: 768px) {
+  .iframe {
+    width: 250px;
+    height: 330px;
+  }
+  body {
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 10px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px max-width: 992px) {
+  .iframe {
+    width: 350px;
+    height: 430px;
+  }
+  body {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... } */
+
+/* Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
 
 /* Réduire la taille de la fenêtre de démo et réduire la taille de la police du footer, peut-être aussi réduire les différents paddings quand la fenêtre est plus petite */
