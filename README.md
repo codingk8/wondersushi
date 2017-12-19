@@ -6,4 +6,4 @@
 
 Il s'agissait de créer une **application de chatbot vocal conversationnel sur Google Home** permettant à une marque de sushis de renforcer sa présence auprès de sa cible de clients "early adopters".
 
-Tous les détails ainsi que la **plateforme de démo** sont disponibles sur [le site Internet du projet](https://wondersushi.herokuapp.com)
+Tous les détails ainsi que la **plateforme de démo** sont disponibles sur [le site Internet du projet](https://wondersushi.herokuapp.com).
