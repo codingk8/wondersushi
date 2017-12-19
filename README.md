@@ -8,4 +8,4 @@ Il s'agissait de créer une **application de chatbot vocal conversationnel sur G
 
 Tous les détails ainsi que la **plateforme de démo** sont disponibles sur [le site Internet du projet](https://wondersushi.herokuapp.com).
 
-# 🇬🇧 Comming soon 😉
+# 🇬🇧 Coming soon 😉
