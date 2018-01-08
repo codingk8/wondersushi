@@ -4,7 +4,7 @@
 
 ## The Wondersushi project won the national hackathon organised in December 2017 by the EFAP and the Wild Code School in collaboration with the communication agency Braaxe.
 
-The project was about creating a conversationnal chatbot 🤖 for Google Home allowing a famous sushi brand to engage the early adopters of this new tool.
+The project was about creating **a conversationnal chatbot 🤖 for Google Home** allowing a famous sushi brand to engage the early adopters of this new tool.
 
 > All the details (in French) and the chatbot demo are available on [the project website](https://wondersushi.herokuapp.com).
 
