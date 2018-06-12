@@ -1,4 +1,4 @@
-<p align="center"><img src="https://s26.postimg.org/hrlfmruu1/wondersushilogotext250.png" alt="Wondersushi ReadMe logo")</p>
+<p align="center"><img src="https://s26.postimg.cc/hrlfmruu1/wondersushilogotext250.png" alt="Wondersushi ReadMe logo")</p>
 
 # 🇬🇧 The Wondersushi project
 
@@ -8,7 +8,7 @@ The project was about creating **a conversationnal chatbot 🤖 for Google Home*
 
 > All the details (in French) and the chatbot demo are available on [the project website](https://wondersushi.herokuapp.com).
 
-(More technical elements soon 😉)
+## Technical stack : backend in NodeJS, frontend in Pug & Bootstrap
 
 *Disclaimer: this project has no commercial purpose.*
 
@@ -20,6 +20,6 @@ Il s'agissait de créer une **application de chatbot vocal conversationnel 🤖 
 
 > Tous les détails ainsi que la **plateforme de démo** sont disponibles sur [le site Internet du projet](https://wondersushi.herokuapp.com).
 
-(Compléments techniques à venir 😉)
+## Stack technique : le backend est en NodeJS et le frontend est en Pug & Bootstrap
 
 *Avertissement : ce projet n'a pas d'objectif commercial.*
