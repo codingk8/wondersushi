@@ -8,7 +8,7 @@ The project was about creating **a conversationnal chatbot 🤖 for Google Home*
 
 > All the details (in French) and the chatbot demo are available on [the project website](https://wondersushi.herokuapp.com).
 
-## Technical stack : backend in NodeJS, frontend in Pug & Bootstrap
+#### Technical stack : backend in NodeJS, frontend in Pug & Bootstrap
 
 *Disclaimer: this project has no commercial purpose.*
 
@@ -20,6 +20,6 @@ Il s'agissait de créer une **application de chatbot vocal conversationnel 🤖 
 
 > Tous les détails ainsi que la **plateforme de démo** sont disponibles sur [le site Internet du projet](https://wondersushi.herokuapp.com).
 
-## Stack technique : le backend est en NodeJS et le frontend est en Pug & Bootstrap
+#### Stack technique : le backend est en NodeJS et le frontend est en Pug & Bootstrap
 
 *Avertissement : ce projet n'a pas d'objectif commercial.*
